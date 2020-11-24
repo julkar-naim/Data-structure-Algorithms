@@ -38,7 +38,7 @@ public:
             temp = _parent(temp);
         }
     }
-    int remove () {
+    T remove () {
         T ret = _arr[_root];
         swap(_arr[_root], _arr[_right]);
         _right--;
