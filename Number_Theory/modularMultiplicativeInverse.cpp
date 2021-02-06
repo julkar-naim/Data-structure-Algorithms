@@ -35,7 +35,7 @@ signed main () {
         m--;
         ll up = fact[n + m];
         ll down = (fact[n] * fact[m]) % MOD;
-        cout << (up * power(down, MOD-2)) % MOD << endl;   // Fermet's little theorem :)
+        cout << (up * power(down, MOD-2)) % MOD << endl;   // Fermat's little theorem :)
     }
 
 }
